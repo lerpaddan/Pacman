@@ -1,0 +1,12 @@
+button.c.o: button.c /opt/mcb32tools/include/string.h \
+ /opt/mcb32tools/include/klibc/extern.h \
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stddef.h button.h \
+ peripherals.h /opt/mcb32tools/include/stdint.h \
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stdint-gcc.h \
+ icon.h vector.h
+button.c /opt/mcb32tools/include/string.h :
+ /opt/mcb32tools/include/klibc/extern.h :
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stddef.h button.h :
+ peripherals.h /opt/mcb32tools/include/stdint.h :
+ /opt/mcb32tools/lib/gcc/mipsel-mcb32-elf/4.9.2/include/stdint-gcc.h :
+ icon.h vector.h :
